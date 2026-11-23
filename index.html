@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>REWEARA – Buy and sell pre-loved clothes in India</title>
+<meta name="description" content="REWEARA is a marketplace in India where people sell their used clothes and buyers get them delivered with a tracking link. Join the waitlist.">
+<meta property="og:title" content="REWEARA – Pre-loved clothes, new life">
+<meta property="og:description" content="Sell the clothes you no longer wear. Buy pre-loved clothes at fair prices. Tracked delivery across India.">
+<meta property="og:url" content="https://reweara.store">
+<link rel="canonical" href="https://reweara.store">
+<style>
+:root{
+  --bg:#faf6ef; --surface:#ffffff; --ink:#1f2a24; --muted:#5d6a62;
+  --brand:#1f5c46; --brand-ink:#ffffff; --accent:#e9a23b; --line:#e6ded0; --soft:#eef3ee;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121a16; --surface:#1a251f; --ink:#f1ede4; --muted:#a8b3ab;
+    --brand:#5cc29a; --brand-ink:#0d1712; --accent:#f0b659; --line:#2a3a31; --soft:#1a251f;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.15;margin:0 0 .5em;letter-spacing:-.01em}
+h1{font-size:clamp(2.3rem,6vw,4rem)}
+h2{font-size:clamp(1.7rem,4vw,2.4rem)}
+h3{font-size:1.25rem}
+p{margin:0 0 1em}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+section{padding:64px 0}
+.eyebrow{font-size:.8rem;text-transform:uppercase;letter-spacing:.14em;color:var(--brand);font-weight:700;margin-bottom:12px}
+header{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:Georgia,serif;font-weight:700;font-size:1.4rem;letter-spacing:.08em;text-decoration:none;color:var(--brand)}
+.nav a.link{text-decoration:none;color:var(--muted);margin-left:22px;font-size:.95rem}
+.nav a.link:hover{color:var(--ink)}
+.btn{display:inline-block;background:var(--brand);color:var(--brand-ink);padding:14px 26px;border-radius:999px;font-weight:700;text-decoration:none;border:0;font-size:1rem;cursor:pointer}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--line)}
+.hero{padding:72px 0 56px}
+.hero-grid{display:grid;gap:40px;align-items:center}
+.hero p.lead{font-size:1.2rem;color:var(--muted);max-width:34em}
+.cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.hero-art{background:var(--soft);border:1px solid var(--line);border-radius:28px;padding:28px;position:relative}
+.tag-card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px 18px;margin-bottom:14px;display:flex;gap:14px;align-items:center}
+.tag-card:last-child{margin-bottom:0}
+.dot{width:44px;height:44px;border-radius:12px;background:var(--accent);flex:none;display:grid;place-items:center;font-size:1.3rem}
+.tag-card b{display:block}
+.tag-card span{color:var(--muted);font-size:.92rem}
+.grid3{display:grid;gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:26px}
+.num{width:38px;height:38px;border-radius:50%;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center;font-weight:700;margin-bottom:14px}
+.band{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.two{display:grid;gap:28px}
+ul.ticks{list-style:none;padding:0;margin:0}
+ul.ticks li{padding-left:30px;position:relative;margin-bottom:12px}
+ul.ticks li::before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:800}
+details{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin-bottom:12px}
+summary{cursor:pointer;font-weight:700}
+details p{margin:10px 0 0;color:var(--muted)}
+form{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+input[type=email],select{flex:1 1 240px;padding:14px 18px;border-radius:999px;border:2px solid var(--line);background:var(--surface);color:var(--ink);font-size:1rem}
+input:focus,select:focus,.btn:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.fine{font-size:.85rem;color:var(--muted);margin-top:10px}
+.thanks{display:none;font-weight:700;color:var(--brand);margin-top:14px}
+footer{padding:36px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.92rem}
+.foot{display:flex;gap:16px;justify-content:space-between;flex-wrap:wrap}
+@media(min-width:820px){
+  .hero-grid{grid-template-columns:1.2fr .9fr}
+  .grid3{grid-template-columns:repeat(3,1fr)}
+  .two{grid-template-columns:1fr 1fr}
+  section{padding:88px 0}
+}
+@media(max-width:560px){.nav a.link{display:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top">REWEARA</a>
+    <nav>
+      <a class="link" href="#how">How it works</a>
+      <a class="link" href="#trust">Why trust us</a>
+      <a class="link" href="#faq">FAQ</a>
+      <a class="btn" href="#join" style="margin-left:22px;padding:10px 20px">Join waitlist</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Pre-loved fashion · Made for India</div>
+      <h1>Clothes you don't wear. Someone else will love.</h1>
+      <p class="lead">REWEARA is a marketplace where people sell their used clothes and buyers get them delivered to their door, with a tracking link for every order.</p>
+      <div class="cta-row">
+        <a class="btn" href="#join">Join the waitlist</a>
+        <a class="btn ghost" href="#how">See how it works</a>
+      </div>
+      <p class="fine">Launching soon. Be first to know.</p>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="tag-card"><div class="dot">👗</div><div><b>List in minutes</b><span>Add photos, size and condition</span></div></div>
+      <div class="tag-card"><div class="dot">📦</div><div><b>Ship with tracking</b><span>Buyers follow every step</span></div></div>
+      <div class="tag-card"><div class="dot">♻️</div><div><b>Wear it again</b><span>Good clothes, a second life</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="how">
+  <div class="wrap">
+    <div class="eyebrow">How it works</div>
+    <h2>Simple for sellers. Easy for buyers.</h2>
+    <div class="grid3" style="margin-top:28px">
+      <div class="card"><div class="num">1</div><h3>Sellers list</h3><p>Take clear photos. Add size, brand, condition and price. Tell buyers about any stain or repair.</p></div>
+      <div class="card"><div class="num">2</div><h3>Buyers order</h3><p>Pick what you like. Enter your address. Pay online. Get updates about your order.</p></div>
+      <div class="card"><div class="num">3</div><h3>Delivered, with tracking</h3><p>The parcel is shipped with a courier. Buyers get a tracking link and follow it until it arrives.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="trust">
+  <div class="wrap two">
+    <div>
+      <div class="eyebrow">Built on trust</div>
+      <h2>Second-hand only works when people can trust each other.</h2>
+      <p style="color:var(--muted)">That is why we plan to build safety in from day one, not add it later.</p>
+    </div>
+    <div class="card">
+      <ul class="ticks">
+        <li><b>Verified sellers.</b> Phone and ID checks before a seller can be paid.</li>
+        <li><b>Real photos.</b> Sellers show the front, the back and the labels.</li>
+        <li><b>Honest condition.</b> New with tags, like new, good or fair.</li>
+        <li><b>Tracked delivery.</b> One tracking link for every parcel.</li>
+        <li><b>Fair problem handling.</b> If an item is not as described, we help sort it out.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap two">
+    <div class="card">
+      <h3>For sellers</h3>
+      <p>Turn your wardrobe into money. Clear space. Keep clothes out of the bin.</p>
+      <ul class="ticks">
+        <li>List for free while we launch</li>
+        <li>Choose your price</li>
+        <li>Shipping help with courier partners</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>For buyers</h3>
+      <p>Find good clothes at fair prices. Every piece has a story and a past owner.</p>
+      <ul class="ticks">
+        <li>Filter by size, brand and condition</li>
+        <li>Pay securely online</li>
+        <li>Order updates from payment to delivery</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap" style="max-width:760px">
+    <div class="eyebrow">About the business</div>
+    <h2>What REWEARA is</h2>
+    <p>REWEARA is an online marketplace for <b>pre-owned (used) clothes</b> in India. Individual sellers list clothes they own. Buyers pay on REWEARA. The seller ships the parcel with a courier, and the buyer follows it with a tracking link.</p>
+    <p>REWEARA does not make or sell its own clothes. We earn a small commission on each completed sale. Buyers pay in Indian rupees (INR) online. Payments are handled by an RBI-authorized payment aggregator. Sellers are paid to their verified bank account.</p>
+    <p>Read our <a href="terms.html">Terms</a>, <a href="refund-policy.html">Refund, Return and Cancellation Policy</a>, <a href="shipping-policy.html">Shipping Policy</a> and <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap" style="max-width:760px">
+    <div class="eyebrow">Questions</div>
+    <h2>Quick answers</h2>
+    <details><summary>When does REWEARA launch?</summary><p>We are building it now. Join the waitlist and we will tell you first.</p></details>
+    <details><summary>Does it cost money to sell?</summary><p>Fees are not final yet. We will share them clearly before launch.</p></details>
+    <details><summary>How will I get my order?</summary><p>Sellers ship with a courier. You get a tracking link and updates until delivery.</p></details>
+    <details><summary>What if the item is not as described?</summary><p>You will be able to raise a problem with photos. We will review it and help with a fair result. Full rules will be published before launch.</p></details>
+    <details><summary>Is it only for India?</summary><p>Yes. We are starting in India.</p></details>
+  </div>
+</section>
+
+<section class="band" id="join">
+  <div class="wrap" style="max-width:760px;text-align:center">
+    <div class="eyebrow">Join the waitlist</div>
+    <h2>Be first in line.</h2>
+    <p style="color:var(--muted)">Leave your email. We will write only when something real is ready.</p>
+    <form name="waitlist" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="waitlist-form">
+      <input type="hidden" name="form-name" value="waitlist">
+      <p hidden><label>Do not fill this: <input name="bot-field"></label></p>
+      <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
+      <select name="role" aria-label="I want to">
+        <option value="both">I want to buy and sell</option>
+        <option value="buy">I want to buy</option>
+        <option value="sell">I want to sell</option>
+      </select>
+      <button class="btn" type="submit">Join waitlist</button>
+    </form>
+    <p class="thanks" id="thanks" role="status">Thank you! You are on the list.</p>
+    <p class="fine">We will use your email only for REWEARA updates.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div>
+      <b style="font-family:Georgia,serif;letter-spacing:.08em">REWEARA</b> · reweara.store<br>
+      [YOUR BUSINESS NAME] (sole proprietorship)<br>
+      [FULL BUSINESS ADDRESS WITH PIN CODE]<br>
+      <a href="mailto:[SUPPORT EMAIL]">[SUPPORT EMAIL]</a> · [PHONE NUMBER]
+    </div>
+    <div>
+      <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a> · <a href="refund-policy.html">Refunds &amp; Cancellation</a> · <a href="shipping-policy.html">Shipping</a> · <a href="contact.html">Contact</a><br>
+      © <span id="yr">2026</span> REWEARA. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+(function(){
+  var f=document.getElementById('waitlist-form'), t=document.getElementById('thanks');
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var body=new URLSearchParams(new FormData(f)).toString();
+    fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:body})
+      .then(function(r){ if(!r.ok) throw 0; f.style.display='none'; t.style.display='block'; })
+      .catch(function(){ t.textContent='Sorry, something went wrong. Please try again.'; t.style.display='block'; });
+  });
+})();
+</script>
+</body>
+</html>
