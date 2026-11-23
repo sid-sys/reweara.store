@@ -234,10 +234,8 @@ document.getElementById('yr').textContent = new Date().getFullYear();
   var f=document.getElementById('waitlist-form'), t=document.getElementById('thanks');
   f.addEventListener('submit',function(e){
     e.preventDefault();
-    var body=new URLSearchParams(new FormData(f)).toString();
-    fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:body})
-      .then(function(r){ if(!r.ok) throw 0; f.style.display='none'; t.style.display='block'; })
-      .catch(function(){ t.textContent='Sorry, something went wrong. Please try again.'; t.style.display='block'; });
+    t.textContent='Sorry, we are not online now.';
+    t.style.display='block';
   });
 })();
 </script>
